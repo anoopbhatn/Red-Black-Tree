@@ -1,0 +1,120 @@
+digraph REDBLACKTREE {
+53 [label=53,color=black];
+}
+digraph REDBLACKTREE {
+53 [label=53,color=black];
+53 -> 67;
+67 [label=67,color=red];
+}
+digraph REDBLACKTREE {
+53 [label=53,color=black];
+53 -> 36 ;
+53 -> 67;
+67 [label=67,color=red];
+36 [label=36,color=red];
+}
+digraph REDBLACKTREE {
+53 [label=53,color=black];
+53 -> 36 ;
+53 -> 67;
+67 [label=67,color=black];
+36 [label=36,color=black];
+36 -> 3 ;
+3 [label=3,color=red];
+}
+digraph REDBLACKTREE {
+53 [label=53,color=black];
+53 -> 36 ;
+53 -> 67;
+67 [label=67,color=black];
+67 -> 99;
+99 [label=99,color=red];
+36 [label=36,color=black];
+36 -> 3 ;
+3 [label=3,color=red];
+}
+digraph REDBLACKTREE {
+53 [label=53,color=black];
+53 -> 36 ;
+53 -> 67;
+67 [label=67,color=black];
+67 -> 62 ;
+67 -> 99;
+99 [label=99,color=red];
+62 [label=62,color=red];
+36 [label=36,color=black];
+36 -> 3 ;
+3 [label=3,color=red];
+}
+digraph REDBLACKTREE {
+53 [label=53,color=black];
+53 -> 36 ;
+53 -> 67;
+67 [label=67,color=black];
+67 -> 62 ;
+67 -> 99;
+99 [label=99,color=red];
+62 [label=62,color=red];
+36 [label=36,color=black];
+36 -> 3 ;
+36 -> 41;
+41 [label=41,color=red];
+3 [label=3,color=red];
+}
+digraph REDBLACKTREE {
+53 [label=53,color=black];
+53 -> 36 ;
+53 -> 67;
+67 [label=67,color=black];
+67 -> 62 ;
+67 -> 99;
+99 [label=99,color=red];
+62 [label=62,color=red];
+36 [label=36,color=red];
+36 -> 3 ;
+36 -> 41;
+41 [label=41,color=black];
+41 -> 51;
+51 [label=51,color=red];
+3 [label=3,color=black];
+}
+digraph REDBLACKTREE {
+53 [label=53,color=black];
+53 -> 36 ;
+53 -> 67;
+67 [label=67,color=black];
+67 -> 62 ;
+67 -> 99;
+99 [label=99,color=red];
+62 [label=62,color=red];
+36 [label=36,color=red];
+36 -> 3 ;
+36 -> 41;
+41 [label=41,color=black];
+41 -> 51;
+51 [label=51,color=red];
+3 [label=3,color=black];
+3 -> 10;
+10 [label=10,color=red];
+}
+digraph REDBLACKTREE {
+53 [label=53,color=black];
+53 -> 36 ;
+53 -> 67;
+67 [label=67,color=red];
+67 -> 62 ;
+67 -> 99;
+99 [label=99,color=black];
+99 -> 85 ;
+85 [label=85,color=red];
+62 [label=62,color=black];
+36 [label=36,color=red];
+36 -> 3 ;
+36 -> 41;
+41 [label=41,color=black];
+41 -> 51;
+51 [label=51,color=red];
+3 [label=3,color=black];
+3 -> 10;
+10 [label=10,color=red];
+}
